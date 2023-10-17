@@ -18,30 +18,30 @@ function convertCase(array) {
 
 //for...of
 
-// const names = ["Rakin","Tanjil","Arup","Robin","Fahim"];
-// for (const name of names){
-//     console.log(name);
-// }
+const names = ["Rakin","Tanjil","Arup","Robin","Fahim"];
+for (const name of names){
+    console.log(name);
+}
 
 //map() 
-// function toUpper(string) {
-//     return string.toUpperCase();
-// }
+function toUpper(string) {
+    return string.toUpperCase();
+}
 
-// const animals = ["cat","dog","tigar","cow"];
+const animals = ["cat","dog","tigar","cow"];
 
-// const upperAnimals = animals.map(toUpper);
+const upperAnimals = animals.map(toUpper);
 
-// console.log(upperAnimals);
+console.log(upperAnimals);
 
 //filtter()
 
-// function Name(name){
-//     return name.startsWith("T");
-// }
-// const names= ['Rishad',"robin","Tanjil"," Arup","Rakin"];
+function Name(name){
+    return name.startsWith("T");
+}
+const names= ['Rishad',"robin","Tanjil"," Arup","Rakin"];
 
-// const filttered = names.filter(Name);
+const filttered = names.filter(Name);
 
-// console.log(filttered);
+console.log(filttered);
 
