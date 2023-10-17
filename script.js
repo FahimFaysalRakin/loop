@@ -1,7 +1,7 @@
 // Standand for loop
-//for(initializer;condition;final-expresion){
+for(initializer;condition;final-expresion){
 
-//}
+}
 // for loop
 let a =[1,2,3,4,5,6,];
 for (a = 0; a <10 ; a++) {
